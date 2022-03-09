@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testerestassured.Desafio" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-09T19:40:55" hostname="DBS-NOTE-791" time="1.839">
+  <properties/>
+  <testcase name="incluirPet" classname="testerestassured.Desafio" time="1.839"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "category": {
+        "id": 1,
+        "name": "dog"
+    },
+    "name": "snoopy",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 2022,
+            "name": "sta"
+        }
+    ],
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Date: Wed, 09 Mar 2022 19:40:15 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 9223372036854775807,
+    "category": {
+        "id": 1,
+        "name": "dog"
+    },
+    "name": "snoopy",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 2022,
+            "name": "sta"
+        }
+    ],
+    "status": "available"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
